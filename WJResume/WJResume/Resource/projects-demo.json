@@ -1,0 +1,163 @@
+{ 
+  "personInfo": {
+    "name": "熊春",
+    "desc": "喜欢 bug，喜欢封装功能类，喜欢新技术",
+    "profession": "iOS 开发工程师",
+    "lastJob": "中科软科技股份有限公司",
+    "gander": "男",
+    "age": "28岁",
+    "degree": "本科",
+    "experience": "4年工作经验",
+    "addr": "上海",
+    "phone": "17621678055",
+    "email": "mr_xiongchun@aliyun.com"
+  }, 
+  "edusInfo": [
+    {
+      "name": "四川师范大学成都学院",
+      "degree": "本科",
+      "major": "计算机科学与技术",
+      "graduationYear": "2014 毕业"
+    }
+  ],
+  "workExpers": [
+    {
+      "name": "中科软科技股份有限公司",
+      "post": "iOS 开发工程师",
+      "time": "2013.07-2017.05"
+    }
+  ],
+  "proExpers": [
+    {
+      "name": "泰康在线",
+      "desc": "为客户供健康生活、卓越理财、便捷服务",
+      "time": "2016.02-2017.05",
+      "skills": [
+        {
+          "desc": "引入 MVVM 设计模式 和 ReactiveObjC 框架对 Controller 的瘦身"
+        },
+        {
+          "desc": "自定义类实现 tableView 数据源协议和代理协议对 Controller 的瘦身"
+        },
+        {
+          "desc": "使用异步绘制和栅格化优化 UITableView， 升滑动帧率"
+        },
+        {
+          "desc": "使用多线程异步绘制网络图片，减小反锯齿技术，优化性能"
+        },
+        {
+          "desc": "使用 RunTime 植入 JS 代码;并根据消息转发机制实现 JS 方法回调与 OC 方法的绑定"
+        },
+        {
+          "desc": "使用响应者链实现超出父视图部分的事件响应"
+        },
+        {
+          "desc": "使用 AFN 和 MBProgressHUD 对网络请求二次封装，实现网络层与业务层分层设计，也实现与第三方框架解耦"
+        },
+        {
+          "desc": "使用 AVFoundation 实现语音播放、暂停继续播放"
+        }
+      ]
+    },
+    { 
+      "name": "掌上新华",
+      "desc": "为客户介绍多样化的服务渠道及丰富多彩的服务项目",
+      "time": "2015.03-2016.01",
+      "skills": [
+        {
+          "desc": "自定义 URL 协议，实现 H5 与 Native 之间的交互"
+        },
+        {
+          "desc": "使用单例模式对 AFN 网络接口封装，实现网络层与业务层分层设计，也实现与第三方框架解耦"
+        },
+        {
+          "desc": "使用 RunTime 和 KVC 对 NSObject 类进行扩展，实现字典转模型的封装"
+        },
+        {
+          "desc": "采用 GCD 异步主队列初始显示 collectionView 第二组图片，实现图片轮播器"
+        },
+        {
+          "desc": "使用 AVFoundation 框架实现二维码扫 功能的封装"
+        },
+        {
+          "desc": "接入 JSPatch 对上线版本热修复"
+        }
+      ]
+    },
+    {
+      "name": "掌上国寿",
+      "desc": "为客户 供保险理财服务，买保险、买理财，只需动动手指",
+      "time": "2014.03-2015.02",
+      "skills": [
+        {
+          "desc": "根据需求编写开发文档"
+        },
+        {
+          "desc": "严格遵循 MVC 设计模式，降低模块之间的耦合度"
+        },
+        {
+          "desc": "自定义下拉控件的实现，添加下拉三种状态不同的动画效果"
+        },
+        {
+          "desc": "接入友盟第三方 SDK 实现把产品分享到微信和微博"
+        },
+        {
+          "desc": "接入 Bugly 第三方 SDK 实现线上的 bug 收集"
+        }
+      ]
+    }
+  ],
+  "classSkills": [
+    {
+      "desc": "熟悉 C、C++、OC、Swift、Java 语言，理解面向对象的编程思想"
+    },
+    {
+      "desc": "熟悉 SQLite、Oracle、MySQL 等数据库、并有 PowerDesigner 数据库建模经验"
+    },
+    {
+      "desc": "熟悉 Git、VSS、SVN 源代码管理和 Maven 项目管理工具"
+    },
+    {
+      "desc": "能够使用 Instruments 分析工具对产品的内存泄漏、运行时间、动画帧频率进行检查，单元测试、性能测试等"
+    },
+    {
+      "desc": "熟悉 Socket、TCP、UDP、HTTP 等网络通信机制"
+    },
+    {
+      "desc": "熟练使用 GCD、NSOperation、NSThread 多线程编程"
+    },
+    {
+      "desc": "熟悉 SQLite、CoreData、FMDB 持久化操作"
+    },
+    {
+      "desc": "熟练使用 SDWebImage、YYWebImage、Charts、AFNetworking、Masonry 等框架"
+    },
+    {
+      "desc": "熟悉 RAC 框架，使用常规信号和组合信号接管苹果事件，采用响应式编程实现模型与 UI 双向绑定"
+    },
+    {
+      "desc": "熟悉 RunTime、RunLoop 以及内存管理"
+    }
+  ],
+  "personals": [
+    {
+      "desc": "2011 北虫草和绿化树苗创业项目"
+    },
+    {
+      "desc": "2012 参加中国软件杯-大学生软件设计大赛 全国三等奖"
+    },
+    {
+      "desc": "2012 开发内容管理平台"
+    },
+    {
+      "desc": "2013 开发中国民用航空飞行学院图书馆管理平台"
+    },
+    {
+      "desc": "2013 开发英大泰和人寿渠道管理系统"
+    },
+    {
+      "desc": "2014 开发煤矿矿井考勤管理平台"
+    }
+  ]
+}
+

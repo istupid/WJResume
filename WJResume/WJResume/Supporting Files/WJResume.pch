@@ -1,0 +1,31 @@
+//
+//  WJResume.pch
+//  WJResume
+//
+//  Created by William on 2017/7/23.
+//  Copyright © 2017年 William. All rights reserved.
+//
+
+#ifndef WJResume_pch
+#define WJResume_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "NSObject+WJModel.h"
+#import "NSString+WJCalculate.h"
+#import "NSAttributedString+Extension.h"
+#import "NSMutableAttributedString+Extension.h"
+
+#import "UIColor+Extension.h"
+#import "UIImage+Extension.h"
+#import "UILabel+WJCreateObject.h"
+#import "UITableViewCell+Extension.h"
+
+/* third frame */ 
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+
+
+#endif /* WJResume_pch */
