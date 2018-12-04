@@ -1,0 +1,31 @@
+//
+//  WJResumeCoreData.pch
+//  WJResumeCoreData
+//
+//  Created by William on 2017/8/18.
+//  Copyright © 2017年 William. All rights reserved.
+//
+
+#ifndef WJResumeCoreData_pch
+#define WJResumeCoreData_pch
+
+#import "Const.h"
+
+// 引入扩展类
+#import "WJSingleton.h"
+#import "UIColor+WJObject.h"
+#import "UILabel+WJObject.h"
+#import "UIImage+WJGraphics.h"
+
+#import "NSString+WJCalculate.h"
+#import "NSAttributedString+WJObject.h"
+
+// 引入数据持久化 CoreData
+#import "WJCoreDataManager.h"
+
+// 第三方库
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+
+#endif /* WJResumeCoreData_pch */

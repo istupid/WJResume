@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="ClassSkill" representedClassName="ClassSkill" syncable="YES" codeGenerationType="class">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Education" representedClassName="Education" syncable="YES" codeGenerationType="class">
+        <attribute name="endYear" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="major" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Job" representedClassName="Job" syncable="YES" codeGenerationType="class">
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" syncable="YES" codeGenerationType="class">
+        <attribute name="addr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="experience" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gander" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profession" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="classSkills" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ClassSkill" syncable="YES"/>
+        <relationship name="educations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Education" syncable="YES"/>
+        <relationship name="jobs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Job" syncable="YES"/>
+        <relationship name="personals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Personal" syncable="YES"/>
+        <relationship name="projects" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Project" syncable="YES"/>
+    </entity>
+    <entity name="Personal" representedClassName="Personal" syncable="YES" codeGenerationType="class">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Project" representedClassName="Project" syncable="YES" codeGenerationType="class">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" syncable="YES"/>
+        <relationship name="skills" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProjectSkill" syncable="YES"/>
+    </entity>
+    <entity name="ProjectSkill" representedClassName="ProjectSkill" syncable="YES" codeGenerationType="class">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="project" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Project" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ClassSkill" positionX="-18" positionY="117" width="128" height="90"/>
+        <element name="Education" positionX="-27" positionY="81" width="128" height="135"/>
+        <element name="Job" positionX="0" positionY="126" width="128" height="120"/>
+        <element name="Person" positionX="-54" positionY="0" width="128" height="255"/>
+        <element name="Personal" positionX="18" positionY="144" width="128" height="90"/>
+        <element name="Project" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="ProjectSkill" positionX="-36" positionY="45" width="128" height="90"/>
+    </elements>
+</model>

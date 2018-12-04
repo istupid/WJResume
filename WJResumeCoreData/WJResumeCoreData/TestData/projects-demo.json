@@ -1,0 +1,225 @@
+{ "name": "xiongchun",
+  "gander": "1",
+  "birthday": "1989-02-21",
+  "email": "mr_xiongchun@sina.com",
+  "phone": "18621020221",
+  "profession": "iOS 开发工程师",
+  "addr": "上海",
+  "desc": "iOS、Java 混合开发",
+  "experience": "4",
+  "educations": [
+    {
+      "index": "1",
+      "name": "四川师范大学成都学院",
+      "major": "计算机科学与技术",
+      "endYear": "2014"
+    }
+  ],
+  "jobs": [
+    {
+      "index": "1",
+      "company": "中科软科技股份有限公司",
+      "position": "iOS 开发工程师",
+      "time": "2013.07-2017.05"
+    }
+  ],
+  "projects": [
+    {
+      "index": "4",
+      "name": "泰康在线",
+      "desc": "为客户 供健康生活、卓越理财、便捷服务",
+      "time": "2016.02-2017.05",
+      "skills": [
+        {
+          "index": "1",
+          "desc": "使用微信 OAuth2.0 授权登录，并实现手势密码和指纹解锁"
+        },
+        {
+          "index": "2",
+          "desc": "使用 RunTime 的黑魔法优化系统导航侧滑返回手势"
+        },
+        {
+          "index": "3",
+          "desc": "使用异步绘制和栅格化优化 UITableView， 升滑动帧率"
+        },
+        {
+          "index": "4",
+          "desc": "使用多线程异步绘制网络图片，减小反锯齿技术，优化性能"
+        },
+        {
+          "index": "5",
+          "desc": "使用 RunTime 植入 JS 代码;并根据消息转发机制实现 JS 方法回调与 OC 方法的绑定"
+        },
+        {
+          "index": "6",
+          "desc": "使用响应者链实现超出父视图部分的事件响应"
+        },
+        {
+          "index": "7",
+          "desc": "使用 RunTime 和 KVC 完成字典转模型"
+        },
+        {
+          "index": "8",
+          "desc": "对 MBProgressHUD 进行二次封装，实现 GIF 图片 示信息;并结合 AFN 对网络请求进行二次封装"
+        },
+        {
+          "index": "9",
+          "desc": "使用 AVFoundation 实现语音播放、暂停继续播放"
+        }
+      ]
+    },
+    {
+      "index": "3",
+      "name": "掌上新华",
+      "desc": "为客户介绍多样化的服务渠道及丰富多彩的服务项目",
+      "time": "2015.03-2016.01",
+      "skills": [
+        {
+          "index": "1",
+          "desc": "通过自定义 URL 协议格式，实现 H5 与 Native 之间的交互"
+        },
+        {
+          "index": "2",
+          "desc": "使用单例模式对 AFN 网络接口封装，实现网络层与业务层分层设计，也实现与第三方框架解耦"
+        },
+        {
+          "index": "3",
+          "desc": "使用高德地图对营业网点的显示，也实现当前位置与网点之间的导航"
+        },
+        {
+          "index": "4",
+          "desc": "使用 UICollectionView 实现图片轮播器，采用 GCD 异步主队列初始显示第二组图片"
+        },
+        {
+          "index": "5",
+          "desc": "使用 AVFoundation 框架实现二维码扫"
+        },
+        {
+          "index": "6",
+          "desc": "接入 JSPatch 对上线版本热修复"
+        }
+      ]
+    },
+    {
+      "index": "2",
+      "name": "掌上国寿",
+      "desc": "为客户 供保险理财服务，买保险、买理财，只需动动手指",
+      "time": "2014.03-2015.02",
+      "skills": [
+        {
+          "index": "1",
+          "desc": "根据需求编写开发文档"
+        },
+        {
+          "index": "2",
+          "desc": "严格遵循 MVC 设计模式，降低模块之间的耦合度"
+        },
+        {
+          "index": "3",
+          "desc": "自定义下拉控件的实现，添加下拉三种状态不同的动画效果"
+        },
+        {
+          "index": "4",
+          "desc": "接入友盟第三方 SDK 实现把产品分享到微信和微博"
+        },
+        {
+          "index": "5",
+          "desc": "接入 Bugly 第三方 SDK 实现线上的 bug 收集"
+        }
+      ]
+    },
+    {
+      "index": "1",
+      "name": "英大泰和人寿渠道管理系统",
+      "desc": "该系统主要负责保险公司渠道管理",
+      "time": "2013.07-2014.02",
+      "skills": [
+        {
+          "index": "1",
+          "desc": "主要模块:"
+        },
+        {
+          "index": "2",
+          "desc": "       各渠道人员管理、电力营业厅管理、扎帐管理、考核管理、薪资计算、方案管理、手续费计算等"
+        },
+        {
+          "index": "3",
+          "desc": "主要职责:"
+        },
+        {
+          "index": "4",
+          "desc": "       设计文档编写，需求开发，单元测试，业务测试，配合质保测试"
+        }
+      ]
+    }
+  ],
+  "classSkills": [
+    {
+      "index": "1",
+      "desc": "熟悉 C、C++、OC、Swift、Java 语言，理解面向对象的编程思想"
+    },
+    {
+      "index": "2",
+      "desc": "熟悉 SQLite、Oracle、MySQL 等数据库、并有 PowerDesigner 数据库建模经验"
+    },
+    {
+      "index": "3",
+      "desc": "熟悉 Git、VSS、SVN 源代码管理和 Maven 项目管理工具"
+    },
+    {
+      "index": "4",
+      "desc": "能够使用 Instruments 分析工具对产品的内存泄漏、运行时间、动画帧频率进行检查，单元测试、性能测试等"
+    },
+    {
+      "index": "5",
+      "desc": "熟悉 Socket、TCP、UDP、HTTP 等网络通信机制"
+    },
+    {
+      "index": "6",
+      "desc": "熟练使用 GCD、NSOperation、NSThread 多线程编程"
+    },
+    {
+      "index": "7",
+      "desc": "熟悉 SQLite、CoreData、FMDB 持久化操作，并对 FMDB 框架进行 ORM 封装，实现数据模型化"
+    },
+    {
+      "index": "8",
+      "desc": "熟悉支付宝、银联等第三方支付流程，了解常用的 MD5、SHA 等加密算法"
+    },
+    {
+      "index": "9",
+      "desc": "熟练使用 SDWebImage、YYWebImage、Charts、AFNetworking、Masonry 等框架"
+    },
+    {
+      "index": "10",
+      "desc": "熟悉 RAC 框架，使用常规信号和组合信号接管苹果事件，采用响应式编程实现模型与 UI 双向绑定"
+    },
+    {
+      "index": "11",
+      "desc": "熟悉 RunTime、RunLoop 以及内存管理"
+    }
+  ],
+  "personals": [
+    {
+      "index": "1",
+      "desc": "2010 参加国旗护卫队"
+    },
+    {
+      "index": "2",
+      "desc": "2011 进入计算机学院学生会，先后担任干事、部长一职"
+    },
+    {
+      "index": "3",
+      "desc": "2011 在校尝试北虫草和绿化树苗创业"
+    },
+    {
+      "index": "4",
+      "desc": "2012 中国软件杯-大学生软件设计大赛 全国三等奖"
+    },
+    {
+      "index": "5",
+      "desc": "2014 开发煤矿矿井考勤管理平台(私人项目)"
+    }
+  ]
+}
+
